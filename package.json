@@ -1,6 +1,6 @@
 {
   "name": "update",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/pward-robertsongeo/updater-second-test",
   "private": true,
   "scripts": {
