@@ -1,6 +1,8 @@
 {
   "name": "update",
-  "version": "1.0.1",
+  "author": "pward",
+  "description": "testing application",
+  "version": "1.0.2",
   "repository": "https://github.com/pward-robertsongeo/updater-second-test",
   "private": true,
   "scripts": {
@@ -10,7 +12,8 @@
     "electron:build": "vue-cli-service electron:build",
     "electron:serve": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
+    "postuninstall": "electron-builder install-app-deps",
+    "release": "electron-builder -p always"
   },
   "main": "background.js",
   "dependencies": {
