@@ -4,7 +4,6 @@
   "description": "testing application",
   "version": "1.0.3",
   "repository": "https://github.com/pward-robertsongeo/updater-second-test",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -14,13 +13,6 @@
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps",
     "release": "electron-builder -p always"
-  },
-  "build": {
-    "publish": [{
-        "provider": "github",
-        "owner": "pward-robertsongeo",
-        "repo": "updater-second-test"
-    }]
   },
   "main": "background.js",
   "dependencies": {
